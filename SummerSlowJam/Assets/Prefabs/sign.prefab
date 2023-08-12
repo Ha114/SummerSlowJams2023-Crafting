@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315513f50e908b240bd0fcae9d517865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactTip: {fileID: 5598658795618547975, guid: 9f9cfc6aa2e788143a5cd506e897969c, type: 3}
+  _interactTip: {fileID: 5598658795618547975, guid: 9f9cfc6aa2e788143a5cd506e897969c, type: 3}
 --- !u!114 &8184114450477848347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6122e55fdcf21474fa55aea1ba286b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 1.5
+  _range: 0
 --- !u!61 &3019333385211961100
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class InteractableUI : MonoBehaviour
 {
-    [SerializeField] GameObject interactTip;
-    GameObject tip;
+    [SerializeField] GameObject _interactTip;
+    GameObject _tip;
 
     private void Update()
     {
@@ -17,14 +17,14 @@ public class InteractableUI : MonoBehaviour
 
     public void ShowInteractTip()
     {
-        tip = Instantiate(interactTip, new Vector2(transform.position.x, transform.position.y + 1f), Quaternion.identity);
-        tip.GetComponent<SpriteRenderer>().sortingOrder = 1;
-        tip.transform.SetParent(transform);
+        _tip = Instantiate(_interactTip, new Vector2(transform.position.x, transform.position.y + 1f), Quaternion.identity);
+        _tip.GetComponent<SpriteRenderer>().sortingOrder = 1;
+        _tip.transform.SetParent(transform);
     }
 
     public void CloseInteractTip()
     {
-        Destroy(tip);
+        Destroy(_tip);
     }
 
 
