@@ -7,14 +7,6 @@ public class InteractableUI : MonoBehaviour
     [SerializeField] GameObject _interactTip;
     GameObject _tip;
 
-    private void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-           // ShowInteractTip();
-        }
-    }
-
     public void ShowInteractTip()
     {
         _tip = Instantiate(_interactTip, new Vector2(transform.position.x, transform.position.y + 1f), Quaternion.identity);
