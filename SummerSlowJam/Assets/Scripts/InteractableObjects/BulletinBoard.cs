@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletinBoard : MonoBehaviour, IInteractable
 {
     [SerializeField] GameObject _orderPrefab;
-    [SerializeField] Transform _canvas;
+  //  [SerializeField] Transform _canvas;
 
     public void Interact()
     {
@@ -15,7 +15,8 @@ public class BulletinBoard : MonoBehaviour, IInteractable
 
     void ShowOrder()
     {
-        Instantiate(_orderPrefab, _canvas);
+        _orderPrefab.SetActive(true);
+        //Instantiate(_orderPrefab, _canvas);
     }
 
 }

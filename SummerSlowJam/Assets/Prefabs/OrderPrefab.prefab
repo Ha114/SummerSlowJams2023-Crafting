@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c6fe6dd15444642a6640495bcb2167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _TitleOfOrderText: {fileID: 0}
+  _TitleOfOrderText: {fileID: 8726323626149006123}
   _FromText: {fileID: 8990659691238463694}
   _OrderContentText: {fileID: 3971845377795680171}
   _SignatureText: {fileID: 7152523100993842381}
